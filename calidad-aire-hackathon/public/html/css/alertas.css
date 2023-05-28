@@ -76,3 +76,41 @@ body {
     background-color: transparent;
   }
   
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .good {
+    background-color: #8BC34A;
+    color: #FFF;
+  }
+  
+  .moderate {
+    background-color: #FFEB3B;
+  }
+  
+  .sensitive {
+    background-color: #FF9800;
+    color: #FFF;
+  }
+  
+  .harmful {
+    background-color: #FF0000;
+    color: #FFF;
+  }
+  
+  .very-harmful {
+    background-color: #9C27B0;
+    color: #FFF;
+  }
